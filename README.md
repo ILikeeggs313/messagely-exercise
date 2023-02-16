@@ -5,4 +5,5 @@
     server.js
     config.js
     middleware/auth.js
-    
+
+potential problems of the exercise:
