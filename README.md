@@ -7,3 +7,5 @@
     middleware/auth.js
 
 potential problems of the exercise:
+
+3rd commit: finished the message routes, added geting messages for users (to and from)

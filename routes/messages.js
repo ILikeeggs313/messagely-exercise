@@ -78,8 +78,10 @@ router.post('/:id/read', ensureLoggedIn, async (req, res, next) => {
         let markMessage = await Message.markRead(req.params.id);
         return res.json({markMessage});
 
-        
+
     } catch(e){
         return next(e)
     }
 })
+
+module.exports = router;
